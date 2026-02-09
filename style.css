@@ -25,11 +25,15 @@ body {
 .header {
     background: #ffffff;
     border-bottom: 1px solid #eee;
-    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
+
+
 
 .logo {
     height: 50px;
@@ -40,6 +44,7 @@ nav {
     display: flex;
     gap: 20px;
     align-items: center;
+    white-space: nowrap;
 }
 
 nav a {
